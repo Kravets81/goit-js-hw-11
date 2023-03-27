@@ -1,0 +1,20 @@
+.search-form__input {
+  width: 180px;
+  height: 40px;
+  padding: 0px;
+  padding-left: 15px;
+
+  font-size: 16px;
+
+  outline: none;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+  &::placeholder {
+    font-size: 16px;
+    color: #cccccc;
+    text-align: center;
+    padding-left: 15px;
+  }
+}
